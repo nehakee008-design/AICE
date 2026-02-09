@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base resets and sensible defaults */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+
+  h1,h2,h3,h4,h5,h6 { @apply font-semibold; }
+}
+
+/* Small component utilities used across the example site */
+@layer components {
+  .container-custom { @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8; }
+  .btn-primary { @apply bg-primary text-white px-6 py-3 rounded-lg font-semibold; }
+}
+

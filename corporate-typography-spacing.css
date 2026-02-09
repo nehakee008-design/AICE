@@ -1,0 +1,360 @@
+/* Corporate Typography & Spacing Improvements */
+
+/* ===== ROOT & GLOBAL STYLES ===== */
+:root {
+  --primary-color: #046bd2;
+  --secondary-color: #1e293b;
+  --text-primary: #1e293b;
+  --text-secondary: #475569;
+  --text-light: #64748b;
+  --bg-light: #f8fafc;
+  --border-color: #e2e8f0;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  letter-spacing: 0.3px;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+  margin-bottom: var(--spacing-md);
+  color: var(--secondary-color);
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-lg);
+}
+
+h2 {
+  font-size: 2.25rem;
+  margin-bottom: var(--spacing-lg);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: var(--spacing-md);
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.375rem;
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1.125rem;
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 1rem;
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: var(--spacing-md);
+  color: var(--text-secondary);
+  letter-spacing: 0.25px;
+}
+
+/* ===== HEADERS & NAVIGATION ===== */
+.elementor-element-2836e750 {
+  padding: var(--spacing-md) 0;
+  background: #ffffff;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.elementor-heading-title {
+  letter-spacing: -0.5px;
+  font-weight: 600;
+}
+
+.main-header-menu {
+  gap: var(--spacing-lg);
+}
+
+.menu-link {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: color 0.3s ease;
+}
+
+.menu-link:hover {
+  color: var(--primary-color);
+}
+
+/* ===== SECTIONS & CONTAINERS ===== */
+.elementor-section {
+  padding: var(--spacing-2xl) 0 !important;
+}
+
+.elementor-container {
+  padding: 0 var(--spacing-lg);
+  max-width: 1280px;
+}
+
+.elementor-column {
+  padding: var(--spacing-md);
+}
+
+/* ===== COURSE CARDS ===== */
+.elementor-column elementor-col-25,
+.elementor-col-25 {
+  padding: var(--spacing-lg) !important;
+}
+
+.elementor-widget-container {
+  padding: var(--spacing-md) 0;
+}
+
+/* Course Card Image & Content */
+.elementor-col-25 .elementor-widget-image {
+  margin-bottom: var(--spacing-lg);
+}
+
+.elementor-col-25 .elementor-heading-title {
+  font-size: 1.375rem;
+  margin-bottom: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+  color: var(--secondary-color);
+}
+
+.elementor-col-25 h2 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: var(--spacing-md);
+}
+
+/* ===== BUTTONS ===== */
+.elementor-button {
+  padding: 0.875rem 2rem !important;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.elementor-button-link {
+  padding: 0.875rem 2rem !important;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  letter-spacing: 0.4px;
+}
+
+.elementor-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(4, 107, 210, 0.15);
+}
+
+/* ===== STAR RATINGS ===== */
+.elementor-star-rating__title {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* ===== ICON LIST ===== */
+.elementor-icon-list-item {
+  margin-bottom: var(--spacing-md);
+  line-height: 1.8;
+}
+
+.elementor-icon-list-text {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* ===== FOOTER ===== */
+footer.elementor {
+  background: #f8fafc;
+  padding: var(--spacing-2xl) 0 !important;
+  border-top: 1px solid var(--border-color);
+}
+
+footer.elementor .elementor-heading-title {
+  font-size: 1.375rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--secondary-color);
+}
+
+footer.elementor p {
+  font-size: 0.9875rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+/* ===== SECTION SPACING ===== */
+.elementor-section-bfe996a {
+  padding: var(--spacing-2xl) 0 !important;
+}
+
+.elementor-section-boxed {
+  padding: var(--spacing-xl) 0 !important;
+}
+
+/* ===== TOP RATED SECTION ===== */
+.elementor-element-4bbb4649 .elementor-heading-title {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-lg);
+  font-weight: 700;
+}
+
+.elementor-element-74b3e988 .elementor-headline {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+/* ===== COURSE SECTION GRID ===== */
+.elementor-inner-section {
+  padding: var(--spacing-lg) !important;
+}
+
+/* ===== RESPONSIVE TYPOGRAPHY ===== */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .elementor-section {
+    padding: var(--spacing-xl) 0 !important;
+  }
+
+  .elementor-container {
+    padding: 0 var(--spacing-md);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.875rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+  }
+
+  .elementor-section {
+    padding: var(--spacing-lg) 0 !important;
+  }
+
+  .elementor-column {
+    padding: var(--spacing-md) !important;
+  }
+
+  .elementor-button {
+    padding: 0.75rem 1.5rem !important;
+    font-size: 0.9375rem;
+  }
+
+  .menu-link {
+    font-size: 1rem;
+  }
+}
+
+/* ===== WHITESPACE & BREATHING ROOM ===== */
+.elementor-widget-wrap {
+  padding: var(--spacing-md) 0;
+}
+
+.elementor-element {
+  margin-bottom: var(--spacing-md);
+}
+
+/* ===== PROFESSIONAL COLOR & CONTRAST ===== */
+.elementor-heading-title {
+  color: var(--secondary-color);
+}
+
+/* ===== FORM ELEMENTS ===== */
+input[type="text"],
+input[type="email"],
+input[type="search"],
+textarea {
+  padding: var(--spacing-sm);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: inherit;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(4, 107, 210, 0.1);
+}
+
+/* ===== SPECIAL SECTIONS ===== */
+.site-footer {
+  padding: var(--spacing-2xl) 0;
+}
+
+/* ===== DIVIDER ===== */
+.elementor-divider {
+  margin: var(--spacing-lg) 0;
+}
+
+/* ===== COUNTDOWN ===== */
+.elementor-countdown {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.elementor-countdown-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: var(--spacing-xs);
+}
