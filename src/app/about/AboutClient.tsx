@@ -42,7 +42,7 @@ export default function AboutClient() {
             <aside className="lg:col-span-1 space-y-4">
               <div className="p-6 bg-white rounded-2xl shadow-sm border">
                 <h2 className="text-xl font-bold">Founder</h2>
-                <p className="mt-2 font-semibold">mr. Santhosh Patil</p>
+                <p className="mt-2 font-semibold">Mr. Santhosh Patil</p>
                 <p className="text-sm text-gray-600">Founder And C.E.O Of A.I.C.E</p>
               </div>
 

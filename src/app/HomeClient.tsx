@@ -408,8 +408,8 @@ export default function HomeClient() {
               </p>
               <div className="flex gap-4">
                 <a href="https://www.facebook.com/people/AI-Computer-Education-Society-Vijayapur/100067439505481/#" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300 font-bold" title="Facebook">f</a>
-                <a href="#" className="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition duration-300 font-bold" title="Twitter">X</a>
-                <a href="#" className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition duration-300" title="YouTube">▶</a>
+                <a href="https://twitter.com/aicevijayapur" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition duration-300 font-bold" title="Twitter">X</a>
+                <a href="https://www.youtube.com/@AICEComputerEducationSociety" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition duration-300" title="YouTube">▶</a>
                 <a href="https://www.instagram.com/aice_computer_centre2" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition duration-300 font-bold" title="Instagram">◎</a>
               </div>
             </div>
