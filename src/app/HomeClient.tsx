@@ -203,17 +203,17 @@ export default function HomeClient() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {[
               {
-                image: 'https://images.unsplash.com/photo-1516534775068-bb57177ef3f7?w=500&h=400&fit=crop',
+                image: 'https://aicecomputers.com/wp-content/uploads/2025/06/96a519b0-5231-4ff7-81d3-96f591fa0252.jpg',
                 title: 'Modern Computer Lab',
                 desc: 'Well-equipped labs with latest hardware',
               },
               {
-                image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop',
+                image: 'https://aicecomputers.com/wp-content/uploads/2025/06/7fc327fd-6ea1-4ec6-8fd1-fbdf6a9c4edb.jpg',
                 title: 'Classroom Environment',
                 desc: 'Interactive learning spaces for students',
               },
               {
-                image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=400&fit=crop',
+                image: 'https://aicecomputers.com/wp-content/uploads/2025/06/dbc57f19-1aaf-49af-ba43-b5f11bc15294.jpg',
                 title: 'Student Success',
                 desc: 'Trained professionals ready for industry',
               },
