@@ -223,12 +223,12 @@ export default function HomeClient() {
                 desc: 'Career guidance and interview preparation',
               },
               {
-                image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop',
+                image: 'https://aicecomputers.com/wp-content/uploads/2025/06/a73c6fc9-87cc-40ed-ae19-7429f6ba4c57.jpg',
                 title: 'Practical Sessions',
                 desc: 'Hands-on training with real projects',
               },
               {
-                image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop',
+                image: 'https://aicecomputers.com/wp-content/uploads/2025/06/a73c6fc9-87cc-40ed-ae19-7429f6ba4c57.jpg',
                 title: 'Student Events',
                 desc: 'Workshops and seminars throughout the year',
               },
